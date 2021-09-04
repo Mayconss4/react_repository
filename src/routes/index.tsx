@@ -1,10 +1,10 @@
 import {Switch, Route} from "react-router-dom"
-import {pagum} from "pages"
+import {Pagum} from "pages"
 
 const Routes = () => {
     return(
         <Switch>
-            <Route path="/" component={pagum}/>
+            <Route path="/" component={Pagum}/>
         </Switch>
     )
 }

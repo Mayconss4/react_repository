@@ -1,1 +1,1 @@
-export {default as pagum} from "./pagum"
+export {default as Pagum} from "./pagum"
