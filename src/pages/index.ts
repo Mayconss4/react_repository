@@ -1,0 +1,1 @@
+export {default as pagum} from "./pagum"
