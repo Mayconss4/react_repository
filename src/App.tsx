@@ -1,6 +1,7 @@
-import Globalstyle from "styles/Globalstyle";
-import {BrowserRouter} from "react-router-dom";
+
+import { BrowserRouter } from "react-router-dom";
 import Routes from "routes";
+import Globalstyle from "styles/Globalstyle";
 
 function App() {
   return (
@@ -8,8 +9,6 @@ function App() {
         <Globalstyle/>
         <Routes/>
     </BrowserRouter>
-    
-    
   );
 }
 
