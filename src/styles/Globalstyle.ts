@@ -7,6 +7,9 @@ export default createGlobalStyle`
     max-width: 1024px;
     margin: 0 auto;
   }
+  h1{
+    color: #ffffff;
+  }
 `
 
 export const colors = {
