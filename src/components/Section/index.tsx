@@ -1,13 +1,13 @@
 import * as S from "./styles"
 import imgprinc from "assets/img/Imagem_principal_dinossauro.svg"
-const Body = () => {
+const Section = () => {
     return (
-        <S.Body>
+        <S.Section>
         <picture>
             <img src={imgprinc} alt = "Imagem_principal_dinossauro" />
         </picture>
-        </S.Body>
+        </S.Section>
     )
 }
 
-export default Body
+export default Section

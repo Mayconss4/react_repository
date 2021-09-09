@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
-export const Body = styled.body`
+export const Section = styled.body`
     display: flex; 
     background-repeat: no-repeat;  
-    
 `

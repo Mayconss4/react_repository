@@ -1,10 +1,10 @@
 import Header from "components/Header";
-import Body from "components/Body";
+import Section from "components/Section";
 
 const Pagum = () =>{
     return <> 
     <Header/> 
-    <Body/>
+    <Section/>
     </>
 
 }
