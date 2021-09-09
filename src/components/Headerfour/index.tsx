@@ -8,7 +8,7 @@ const Headerfour = () => {
             <picture>
                 <img src={logo} alt="Logo do site" />
             </picture>  
-            <h1>História</h1>    
+            <h1>Espécimes</h1>    
             <ul id="menu3"> 
                 <li>
                     <Link to="/pagum">Home</Link>

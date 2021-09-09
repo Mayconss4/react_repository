@@ -1,10 +1,11 @@
-import Headerthree from "components/Headerthree";
+import  Mainfour  from "components/Mainfour";
+import Headerfour from "components/Headerfour";
 
 
 const Pagquatro = () =>{
     return <> 
-    <Headerthree/> 
-    
+    <Headerfour/> 
+    <Mainfour/>
     </>
 
 }
