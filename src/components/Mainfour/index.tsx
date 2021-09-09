@@ -1,6 +1,5 @@
 import * as S from "./styles"
 import imgprinc from "assets/img/Imagem_principal_dinossauro.svg"
-import { Link } from "react-router-dom"
 
 const Mainfour = () => {
     return (
