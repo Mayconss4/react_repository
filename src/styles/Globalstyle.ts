@@ -10,11 +10,7 @@ export default createGlobalStyle`
   h1{
     color: #ffffff;
   }
-  body{
-    width:100;
-    max-width: 1024px;
-    margin: 0 auto;
-  }
+
   aside{
     background-color: #B7B295;
     text-align: right;

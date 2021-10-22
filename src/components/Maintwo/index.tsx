@@ -5,9 +5,7 @@ import { Link } from "react-router-dom"
 const Maintwo = () => {
     return (
         <S.Maintwo>
-            <picture>
-                <img src={imgprinc} alt = "Imagem_principal_dinossauro" />
-            </picture>
+           
             <nav>
             <table>
                 <caption>
