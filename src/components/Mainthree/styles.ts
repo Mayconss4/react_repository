@@ -1,10 +1,12 @@
 import styled from "styled-components"
-
+import imgesc from "assets/img/imagem_dino_escurecida.svg"
 export const Mainthree = styled.main`
-     display: flex; 
-    background-repeat: no-repeat;  
     width: 100%;
-    background-color: blue;
+    height: 600px;
+    border: 1px solid #000;
+    background-position: center;
+    background-image: url(${imgesc});
+    width: 1022px;
     main{
         p{
         color:white;

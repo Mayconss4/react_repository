@@ -3,7 +3,11 @@ import imgprinc from "assets/img/Imagem_principal_dinossauro.svg"
 export const Maintwo = styled.main`
     width: 100%;
     height: 600px;
-    background-color: blue;
+    border: 1px solid #000;
+    background-position: center;
+    background-image: url(${imgprinc});
+    width: 1022px;
+    
     nav{
         background-color: #B7B295;
         text-align: right;
