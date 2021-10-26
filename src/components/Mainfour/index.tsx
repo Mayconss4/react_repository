@@ -1,5 +1,5 @@
 import * as S from "./styles"
-import imgprinc from "assets/img/Imagem_principal_dinossauro.svg"
+
 
 const Mainfour = () => {
     return (
