@@ -1,28 +1,43 @@
 import styled from "styled-components";
+import imgesc from "assets/img/imagem_dino_escurecida.svg"
 
 export const Formulario = styled.form`
-    background-color:blue;
-    width: 100%;
+    
+    background-position: center;
+    background-image: url(${imgesc});
     display: flex;
     height: auto;
     flex-direction: column;
-        
+    
     div{
-   
-    label{
-       //text
         
-    }
-    input{
-        //text
-    }
-    button{
-        //text
-    }
-    a{
-        text-decoration: none;
-        
-    }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+        width: 1022px;
+        section{
+            border: 10px solid white;
+            padding: 1rem;   
+            width:30%;
 
+        label{
+            color: white;
+            font-size: 25px;
+        }
+        input{
+            width: 100%;
+        }
+        button{
+            
+        }   
+        a{
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+        
+        }
+
+        }
     }
 `
