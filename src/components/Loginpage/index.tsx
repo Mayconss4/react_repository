@@ -5,16 +5,19 @@ const Loginpage = () =>{
     return (
         
         <S.Formulario>
-            <div>
-                <section>
-                    <label htmlFor="">Email</label><br/><br/>
-                    <input type="email" name="" id="" /><br/><br/>
-                    <label htmlFor="">Senha</label><br/><br/>
-                    <input type="password" name="" id="" /><br/><br/>
-                    <button>Acessar</button><br/><br/>
-                    <Link to="">Esqueci minha senha!</Link>
-                </section>
-            </div>
+            <main>
+                <Link to="/pagum">Ir para o site sem login.</Link>
+                <div>
+                    <section>
+                        <label htmlFor="">Email</label><br/><br/>
+                        <input type="email" name="" id="" /><br/><br/>
+                        <label htmlFor="">Senha</label><br/><br/>
+                        <input type="password" name="" id="" /><br/><br/>
+                        <button>Acessar</button><br/><br/>
+                        <Link to="">Esqueci minha senha!</Link>
+                    </section>
+                </div>
+            </main>    
         </S.Formulario>
         
     )

@@ -8,36 +8,41 @@ export const Formulario = styled.form`
     display: flex;
     height: auto;
     flex-direction: column;
-    
-    div{
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 650px;
-        width: 1022px;
-        section{
-            border: 10px solid white;
-            padding: 1rem;   
-            width:30%;
-
-        label{
-            color: white;
-            font-size: 25px;
-        }
-        input{
-            width: 100%;
-        }
-        button{
+    main{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        div{
             
-        }   
-        a{
-            font-size: 20px;
-            color: white;
-            text-decoration: none;
-        
-        }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 650px;
+            width: 1022px;
+            section{
+                border: 10px solid white;
+                padding: 30px;
+                width:30%;
 
+            label{
+                color: white;
+                font-size: 25px;
+            }
+            input{
+                width: 100%;
+            }
+            button{
+                
+            }   
+            a{
+                font-size: 20px;
+                color: white;
+                text-decoration: none;
+            
+            }
+
+            }
         }
     }
+    
 `
